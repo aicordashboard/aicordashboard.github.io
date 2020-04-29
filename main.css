@@ -32,19 +32,7 @@ h1 {
 }
 
 .sidebar {
-    width: 200px;
-    margin: 0 20px;
-    padding: 10px 15px;
-    background: orange;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;    
+    width: 200px; 
 }
 
 .list {
