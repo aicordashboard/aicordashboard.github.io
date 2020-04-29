@@ -50,7 +50,7 @@ h1 {
 
 #main {
     display: inline-block;
-    min-width: calc(100vh - 222px);
+    min-width: calc(100vw - 222px);
     min-height: calc(100vh - 222px);
 }
 
