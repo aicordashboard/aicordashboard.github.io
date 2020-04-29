@@ -44,7 +44,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    min-width: calc(100vw - 222px);
+    min-width: calc(100vw - 410px);
     min-height: calc(100vh - 222px);
 }
 
