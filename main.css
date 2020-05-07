@@ -1,106 +1,13 @@
-body {
-    color: Tomato;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-#title {
+button {
+    background-color: #556A83;
+    height: 200px;
+    width: 35%;
+    color:white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
     text-align: center;
-}
-
-h1 {
-    color: Gray;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 45px !important;
-    font-weight: 700;
-}
-
-.item {
-    margin: 0 20px;
-    padding: 10px 15px;
-    background: orange;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-}
-
-.sidebar {
-    width: 20%; 
-}
-
-.list {
-    padding-left: 20px;
-}
-
-#initial {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(100vh - 222px);
-}
-
-#main {
-    display: inline-block;
-    min-width: calc(100vw - 60vw);
-    min-height: calc(100vh - 222px);
-}
-
-#canvas {
-    margin-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: calc(100vh - 253px);
-}
-
-label {
-    display: grid;
-}
-
-input, select {
-    margin-bottom: 10px;
-}
-
-#canvas {
-    margin-bottom: 10px;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-.page-wrap {
-    min-height: 100%;
-    /* equal to footer height */
-    margin-bottom: -120px;
-}
-
-.page-wrap:after {
-    content: "";
-    display: block;
-}
-
-.site-footer, .page-wrap:after {
-    height: 120px;
-}
-
-.footer-logo {
-    padding: 20px;
-    max-height: 60px;
-}
-
-#attribution {
-    max-height: 60px;
-    text-align: center;
-    margin: 0;
-    padding: 11px;
-}
+    border-style: solid;
+    border-width: 0.1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;}
