@@ -1,0 +1,227 @@
+.home {
+    background-color: rgb(71, 100, 134);
+    height: 97%;
+    width: 28%;
+    color:white;
+    font-family: "Handlee";
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1%;
+    margin-left: 0.2%;
+    margin-top: 0.2%;}
+
+.pagewrapper {
+    height: 98%;
+    width: 98%;
+    border: solid rgb(102, 88, 192);
+    border-width: 5%;
+}
+
+.top {
+    background-color:rgb(82, 109, 158);
+    height: 22%;
+    width: 99%;   
+    margin-top: 0.5%;
+    margin-left: 0.5%; 
+    display: flex;
+}
+.section{
+    background-color: rgb(89, 158, 214);
+    height: 94%;
+    width: 12.5%;
+    border-style: solid;
+    border-width: 0.1%;
+    border-color: aliceblue;
+    margin-top: 0.2%;
+    margin-left: 1%;
+}
+.left{
+    margin-left: 2.5%;
+}
+.sectiontitle{
+    color: white;
+    width: 60%;
+    font-size: 110%;
+    padding-top: 16%;
+    padding-left: 5%;
+}
+/* .sectiontop{
+    display: flex;
+    flex-direction: row;
+} */
+.sectionfoot{
+    background-color: rgb(71, 100, 134);
+    color:white;
+    height: 20%;
+    font-size: 80%;
+    padding-top: 5%;
+    text-align: center;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.leftbody{
+    background-color:rgb(82, 109, 158);
+    height: 515px;
+    width: 36%;   
+    margin-top: 0.5%;
+    margin-left: 0.5%; 
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+}
+.midbody{
+    margin-top: 0.5%;
+    margin-left: 0.5%; 
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+}
+
+.rightbody{
+    background-color:rgb(82, 109, 158);
+    height: 320px;
+    width: 20%;
+    margin-top: 0.5%;
+    margin-left: 0.5%; 
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+}
+.phase{
+    background-color: rgb(89, 158, 214);
+    color: white;
+    width: 93%;
+    height: 7%;
+    font-size: 100%;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 7px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nextphase{
+    background-color: rgb(89, 158, 214);
+    color: white;
+    width: 75%;
+    height: 37%;
+    font-size: 100%;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 7px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.selector{
+    background-color: rgb(71, 100, 134);
+    margin-left: 5%;
+    width: 62%;
+    color: white;
+}
+
+.nexselector{
+    background-color: rgb(71, 100, 134);
+    
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+.instrument{
+    background-color: rgb(89, 158, 214);
+    color: white;
+    width: 93%;
+    height: 17%;
+    font-size: 100%;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 7px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.instr{
+    width: 67%; 
+    background-color: rgb(71, 100, 134);
+    font-size: small;
+    color: white;
+}
+
+.leftfoot{
+    width: 500px;
+    height: 200px;
+}
+.uncertain{
+    background-color: rgb(89, 158, 214);
+    color: white;
+    width: 78px;
+    height: 200px;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 7px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.clinictitle{
+    background-color: rgb(89, 158, 214);
+    color: white;
+    width: 90%;
+    height: 65px;
+    font-size: 150%;
+    margin-top: 7px;
+    margin-left: 4%;
+    text-align: center;
+}
+.pinfo{
+    background-color: rgb(71, 100, 134);
+    color: white;
+    width: 90%;
+    height: 35px;
+    font-size: 110%;
+    padding-top: 10px;
+    margin-top: 7px;
+    margin-left: 4%;
+    border-style: solid;
+    border-width: 0.1%;
+    border-color: rgb(89, 158, 214);
+    text-align: center;
+}
+
+.overlay{
+    background-color:rgb(82, 109, 158);
+    height: 180px;
+    width: 100%;
+    padding-top: 4%;
+    margin-top: 10px;
+    margin-left: 0.5%; 
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+}
+.inoverlay{
+    background-color: rgb(89, 158, 214);
+    color: white;
+    width: 90%;
+    height: 72px;
+    font-size: 120%;
+    padding-top: 3px;
+    margin-top: 4%;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.olselector{
+    background-color: rgb(71, 100, 134);
+    margin-left: 5%;
+    width: 85%;
+    height: 40%;
+    color: white;
+}
