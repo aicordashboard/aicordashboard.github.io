@@ -1,0 +1,148 @@
+
+<html>
+    <head>
+      <title>AICOR Dashboard</title>
+    
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165005081-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-165005081-1');
+      </script>
+
+    
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+      <link rel="stylesheet" type="text/css" href="main.css">
+
+    </head>
+    <body>
+      <div class="pagewrapper">
+        <div class="top">
+          
+          <button class="home" onclick="document.location = 'index.html'">AICOR DASHBOARD</button>
+          
+          <div class="left section">
+            
+            <!-- <div class="sectiontop">
+              <div style="width: 50%;">
+              <img src="./phase.jpg" alt="surgical phase" width="100%" >
+              </div>
+              <div class="sectiontitle">
+              Surgical Phases
+              </div>
+            </div> -->
+            <img src="imgs/1.PNG" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="phase.html" target="_self">View More</a>
+            </div>
+          
+          </div> 
+          
+          <div class="section">
+            <img src="imgs/3.png" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="activity.html" target="_self">View More</a>
+            </div>
+          </div>
+
+          <div class="section">
+            <img src="imgs/2.PNG" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="instrument.html" target="_self">View More</a>
+            </div>
+          </div>
+
+          <div class="section">
+            <img src="imgs/4.PNG" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="anatomy.html" target="_self">View More</a>
+            </div>
+          </div>
+
+          <div class="section">
+            <img src="imgs/5.PNG" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="future.html" target="_self">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="body">
+          <div class="leftbody">
+            
+            <div class="body">
+              <div class="nextphase">
+                <div class="leftfoot" id="nexphat">
+                  <p>Next phase: </p>
+                  <select class="nexselector" id="nexpha" name="phases">
+                    <option value="Section of round ligament" selected>Section of round ligament</option>
+                    <option value="Suturing">Suturing</option>
+                    <option value="Knot-tying">Knot-tying</option>
+                    <option value="Needle-passing">Needle-passing</option>
+                  </select>
+                  <br>
+                  <input value="10" name="10 seconds" class="time-list" type="checkbox">10 seconds 
+                  <br> 
+                  <input value="30" name="30 seconds" class="time-list" type="checkbox">30 seconds  
+                  <br>
+                  <input value="60" name="60 seconds" class="time-list" type="checkbox">60 seconds  
+                  <script type="text/javascript">
+                    $('.time-list').click(function() {
+                        $(this).siblings('input:checkbox').prop('checked', false);
+                    });
+                  </script>
+                </div>
+                <div style="margin-left:5px; margin-top: 5px;"><img id="nexphaimg" src="imgs/next.PNG" alt="next phase imgae" width="90%"></div>
+              </div>
+
+              <div class="uncertain">
+               <h5 style="writing-mode: vertical-rl; transform: rotate(180deg); margin-bottom: 60px; margin-left: 5px;">Uncertainty</h5> 
+               <img src="imgs/uncertainty.PNG" alt="uncertainty label" width="26px" height="190px">
+              </div>
+            </div>
+          </div>
+
+          <div class="midbody">
+            <video width="680px" height="515px" controls controlsList="nodownload">
+              <source src="videos/robotic_surgery.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="rightbody">
+            <div id="info">
+              <p class="clinictitle">Clinical Information</p>
+              <div class="pinfo" id="pid"> Patient ID: 200521xx</div>
+              <div class="pinfo" id="page"> Age: 50</div>
+              <div class="pinfo" id="pbmi"> BMI: 27</div>
+              <div class="pinfo" id="pdate"> Date: 11/23/20</div>
+            </div>
+            <div class="overlay" id="overlay">
+              <div class="inoverlay" id="instrol">
+                Instruments: 
+                <br>
+                <select class="olselector" id="phases" name="phases">
+                  <option value="Overlay" selected>Overlay</option>
+                  <option value="Un-overlay">Un-overlay</option>
+                </select>
+              </div>
+
+              <div class="inoverlay" id="anatool">
+                Anatomy: 
+                <br>
+                <select class="olselector" id="phases" name="phases">
+                  <option value="Overlay">Overlay</option>
+                  <option value="Un-overlay" selected>Un-overlay</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

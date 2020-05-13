@@ -1,0 +1,130 @@
+
+<html>
+    <head>
+      <title>AICOR Dashboard</title>
+    
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165005081-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-165005081-1');
+      </script>
+
+    
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>
+      <link rel="stylesheet" type="text/css" href="main.css">
+
+    </head>
+    <body>
+      <div class="pagewrapper">
+        <div class="top">
+          
+          <button class="home" onclick="document.location = 'index.html'">AICOR DASHBOARD</button>
+          
+          <div class="left section">
+            
+            <!-- <div class="sectiontop">
+              <div style="width: 50%;">
+              <img src="./phase.jpg" alt="surgical phase" width="100%" >
+              </div>
+              <div class="sectiontitle">
+              Surgical Phases
+              </div>
+            </div> -->
+            <img src="imgs/1.PNG" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="phase.html" target="_self">View More</a>
+            </div>
+          
+          </div> 
+          
+          <div class="section">
+            <img src="imgs/3.png" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="activity.html" target="_self">View More</a>
+            </div>
+          </div>
+
+          <div class="section">
+            <img src="imgs/2.PNG" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="instrument.html" target="_self">View More</a>
+            </div>
+          </div>
+
+          <div class="section">
+            <img src="imgs/4.PNG" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="anatomy.html" target="_self">View More</a>
+            </div>
+          </div>
+
+          <div class="section">
+            <img src="imgs/5.PNG" alt="surgical phase" width="100%" height="75%">
+            <div class="sectionfoot">
+              <a style="color:white; text-decoration: none;" href="future.html" target="_self">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="body">
+          <div class="leftbody">
+           
+
+            <div class="instrument" id="curinstru">
+              <div style="width: 30%; padding-top: 5.5px;">Instruments:  </div>
+              <div class="instr" id="instrus">
+                <ol>
+                  <li> Monopolar Curved Scissor</li>
+                  <li> Fenestrated Bipolar Forceps</li>
+                </ol>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <div class="midbody">
+            <video width="680px" height="515px" controls controlsList="nodownload">
+              <source src="videos/robotic_surgery.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="rightbody">
+            <div id="info">
+              <p class="clinictitle">Clinical Information</p>
+              <div class="pinfo" id="pid"> Patient ID: 200521xx</div>
+              <div class="pinfo" id="page"> Age: 50</div>
+              <div class="pinfo" id="pbmi"> BMI: 27</div>
+              <div class="pinfo" id="pdate"> Date: 11/23/20</div>
+            </div>
+            <div class="overlay" id="overlay">
+              <div class="inoverlay" id="instrol">
+                Instruments: 
+                <br>
+                <select class="olselector" id="phases" name="phases">
+                  <option value="Overlay" selected>Overlay</option>
+                  <option value="Un-overlay">Un-overlay</option>
+                </select>
+              </div>
+
+              <div class="inoverlay" id="anatool">
+                Anatomy: 
+                <br>
+                <select class="olselector" id="phases" name="phases">
+                  <option value="Overlay">Overlay</option>
+                  <option value="Un-overlay" selected>Un-overlay</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
